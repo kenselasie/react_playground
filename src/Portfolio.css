@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 1rem;
+    width: 99vw;
+    position: fixed;
+}
+
+.lists {
+    display: flex;
+}
+
+.lists a {
+    text-decoration: none;
+    margin: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+.lists a:hover {
+    text-decoration: none;
+    color: silver;
+}
+
+/* .container {
+    display: grid;
+    place-items: center;
+} */
+
+.main-section {
+
+    display: flex;
+    background-color: rgb(33, 71, 107);
+    height: 55vh;
+    color: white;
+
+
+}
+
+.desc {
+    margin-top: 10rem;
+    text-align: center;
+    width: 100vw;
+}
+
+.desc h1 {
+    font-size: 3rem;
+}
+
+.desc p {
+    font-size: 1.2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+.mt {
+    margin-top: 5rem;
+}
+
+.about-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.about-pic img{
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 40vw;
+    padding: 1rem;
+}
