@@ -12,10 +12,10 @@ function Portfolio() {
                     {/* ordered list and unordered list */}
 
                     <ul type="none" className="lists">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="http://www.google.com">Home</a></li>
+                        <li><a href="http://www.google.com">About</a></li>
+                        <li><a href="http://www.google.com">Gallery</a></li>
+                        <li><a href="http://www.google.com">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -23,8 +23,7 @@ function Portfolio() {
                 <section className="main-section"> 
                     <div className="desc">
                         <h1>KENNEDY SELASIE</h1>
-                        <p>My name is Ken, and i am a web developer, i do everything ranging from web tec
-                            hnology to app development blah blah blah blah blah
+                        <p>My name is Ken, and i am a web developer, i do everything ranging from web technology to app development, im here at your service any time you need me
                         </p>
                     </div>
                 </section>
@@ -37,10 +36,29 @@ function Portfolio() {
                         <div className="about-text">
                             this is my personal ps and i am a good person im just writing anything
                             at all just to fill this gap in the soces give to ne so that k am revlevant this
-                            soomm.$on('event', callback)
+                            soomm.$on some lorem ipsum
                         </div>
                     </section>
                 </section>
+                {/* <section className="contact-section">
+                    <h1 className="text-center mt">CONTACT</h1>
+
+                    <div className="contact-me">
+                        <h3>Contact Me</h3>
+                        <p>this is something small that im using to catch the at  using to catch the at  using to catch the at   using to catch the at  using to catch the at using to catch the at using to catch the at using to catch the at using to catch the attention of those how and thsi is just any text</p>
+                    </div>
+                    <form className="contact-form">
+                        <div>
+                            <input className="input-tag" type="text" placeholder="Enter Name"/>
+                        </div>
+                        <div>
+                            <input className="input-tag" type="email" placeholder="Enter Email"/>
+                        </div>
+                        <div>
+                            <textarea></textarea>
+                        </div>
+                    </form>
+                </section> */}
             </main>
         </div>
     )

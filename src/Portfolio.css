@@ -1,3 +1,6 @@
+h2 {
+    font-size: 1rem;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -5,8 +8,8 @@
     color: black;
     align-items: center;
     padding: 1rem;
-    width: 99vw;
-    position: fixed;
+    /* width: 99vw; */
+    /* position: fixed; */
 }
 
 .lists {
@@ -17,7 +20,7 @@
     text-decoration: none;
     margin: 0.5rem;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 1.5rem;
 }
 
@@ -31,9 +34,12 @@
     place-items: center;
 } */
 
+
 .main-section {
 
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(33, 71, 107);
     height: 55vh;
     color: white;
@@ -42,9 +48,8 @@
 }
 
 .desc {
-    margin-top: 10rem;
     text-align: center;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .desc h1 {
@@ -77,5 +82,28 @@
 
 .about-text {
     width: 40vw;
+    padding: 1rem;
+}
+
+.contact-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
+/* .contact-me {
+    flex: 1
+} */
+/* .contact-form {
+    flex: 1
+} */
+
+.input-tag {
+    width: 20rem;
     padding: 1rem;
 }
